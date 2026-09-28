@@ -1,0 +1,126 @@
+/*
+Descricao: Projeto Nova Web - Situação de aprendizagem 1
+nome_arquivo: styles.css
+nome_exercicio: Projeto Nova Web - Situação de aprendizagem 1
+nome_aluno: Geovana Ramos Pereira
+email_aluno: geovana.pereira8@aluno.cps.sp.gov.br
+turma: Código da Turma
+*/
+
+/* Seletor universal, zera margens e espaçamentos */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #F1DABF;
+    font-family: Arial, sans-serif;
+    color: #000500;
+}
+header{
+    background-color: #92817A;
+    padding: 20px;
+}
+header h1{
+    color: #FFFBFF;
+    margin-bottom: 5px;
+}
+header p{
+    color: #FFFBFF;
+    margin-bottom: 10px;
+}
+nav{
+    background-color: #F1DABF;
+    border: 1px solid #362417;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    color: #362417;
+    text-decoration: none;
+}
+main{
+    background-color: #362417;
+    min-height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+section{
+    background-color: #FFFBFF;
+    border: 1px solid #92817A;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+h1{
+    color: #362417;
+    margin-bottom: 10px;
+}
+h2{
+    color: #362417;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 10px;
+}
+main ul{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+main ol{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.tier-list{
+    list-style: none;
+    margin-left: 0;
+}
+li{
+    margin-bottom: 5px;
+}
+main a{
+    color: #92817A;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    border: 2px solid #92817A;
+}
+table{
+    border: 1px solid #362417;
+    margin-top: 10px;
+}
+th{
+    background-color: #F1DABF;
+    border: 1px solid #362417;
+    padding: 8px;
+}
+td{
+    border: 1px solid #362417;
+    padding: 8px;
+}
+footer{
+    background-color: #92817A;
+    min-height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+}
+footer p{
+    color: #FFFBFF;
+}
+footer a{
+    color: #FFFBFF;
+}
